@@ -1,0 +1,23 @@
+{
+    "name": "testing-talk",
+    "version": "1.0.0",
+    "description": "talk sul testing - romajs 2017-05-17",
+    "main": "index.js",
+    "scripts": {
+        "build": "markdown-to-slides src/talk.md -o build/index.html -s src/talk.css -i",
+        "develop": "markdown-to-slides src/talk.md -o build/index.html -s src/talk.css -w -i",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Paolo Mariotti",
+        "email": "paolo.mariotti@sourcesense.com"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "markdown-to-slides": "^1.0.5"
+    },
+    "dependencies": {
+        "express": "^4.15.2",
+        "serve-index": "^1.8.0"
+    }
+}
